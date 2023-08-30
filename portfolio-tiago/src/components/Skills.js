@@ -1,11 +1,15 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/html.png";
+import meter2 from "../assets/img/css.png";
+import meter3 from "../assets/img/javascript.png";
+import meter4 from "../assets/img/react.png";
+import meter5 from "../assets/img/redux.png";
+import meter6 from "../assets/img/tailwind.png";
+import meter7 from "../assets/img/typescript.png";
+import meter8 from "../assets/img/nodejs.png";
+import meter9 from "../assets/img/git.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
-import colorSharp from "../assets/img/color-sharp.png"
+
 
 export const Skills = () => {
   const responsive = {
@@ -34,31 +38,50 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
+                        <h2>Habilidades</h2>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>HTML</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>CSS</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter4} alt="Image" />
+                                <h5>React</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
+                                <h5>Redux Toolkit</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter6} alt="Image" />
+                                <h5>Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>Typescript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter8} alt="Image" />
+                                <h5>NodeJS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter9} alt="Image" />
+                                <h5>Git & Github</h5>
                             </div>
                         </Carousel>
                     </div>
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
     </section>
   )
 }
