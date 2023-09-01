@@ -12,17 +12,17 @@ export const Projects = () => {
   const projects = [
     {
       title: "Teesa",
-      description: "E-comerce",
+      description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
+      title: "Recipe Ship",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "Portfolio",
+      description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
       imgUrl: projImg3,
     },
     // {
