@@ -55,7 +55,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                <h1>{`Hola! Soy Tiago`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Desarrollador Frontend"]'><span className="wrap">{text}</span></span></h1>
+                <h1>{`Hola! Soy Tiago, Desarrollador Frontend`} </h1>
                   <p>
 ¡Saludos! Soy un Desarrollador Web Frontend, entusiasta de la tecnología y la programación. Mi pasión por la creación y la innovación me impulsa a ofrecer soluciones excepcionales. Si estás en búsqueda de un profesional, comprometido y con alta motivación, no dudes en comunicarte conmigo. Estoy aquí para ayudarte en tu próximo proyecto.</p>
                   <button onClick={() => console.log('connect')}>Conectémonos <ArrowRightCircle size={25} /></button>

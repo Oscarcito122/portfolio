@@ -293,33 +293,28 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Skills Css ************/
 .skill {
-  background-color: #100806;
+  background-color: #fee6cc93;
   padding: 0 0 50px 0;
   position: relative;
 }
 .skill-bx {
-  background: #FEE6CC;
+  background: #1b0d0a;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
   margin-top: -60px;
 }
 .skill h2 {
-  color: #20100C;
+  color: #ffffff;
 	font-size: 45px;
 	font-weight: 700;
+  margin-bottom: 25px;
 }
 .skill h5 {
-  color: #383838;
+  color: #6e6e6e;
 	font-weight: 700;
 }
-.skill p {
-    color: #20100C;
-    font-size: 18px;
-    letter-spacing: 0.8px;
-    line-height: 1.5em;
-    margin: 14px 0 75px 0;
-}
+
 .skill-slider {
   width: 80%;
   margin: 0 auto;
@@ -335,7 +330,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #1b0d0a;
 }
 .project h2 {
 	font-size: 45px;
@@ -375,17 +370,17 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   z-index: 0;
 }
-.project .nav.nav-pills .nav-link::before {
+/* .project .nav.nav-pills .nav-link::before {
     content: "";
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: linear-gradient(90.21deg, #6e6e6e -5.91%, #00ff2a 111.58%);
     top: 0;
     left: 0;
     z-index: -1;
     transition: 0.3s ease-in-out;
-}
+} */
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
@@ -409,10 +404,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  cursor: pointer;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #6e6e6e -5.91%, #1b0d0a 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
