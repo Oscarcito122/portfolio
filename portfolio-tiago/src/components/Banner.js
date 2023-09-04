@@ -4,7 +4,7 @@ import headerImg from "../assets/img/header-img.png";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-
+import Pdf from "../assets/img/TiagoCV.pdf"
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -58,7 +58,7 @@ export const Banner = () => {
                 <h1>{`Hola! Soy Tiago, Desarrollador Frontend`} </h1>
                   <p>
 ¡Saludos! Soy un Desarrollador Web Frontend, entusiasta de la tecnología y la programación. Mi pasión por la creación y la innovación me impulsa a ofrecer soluciones excepcionales. Si estás en búsqueda de un profesional, comprometido y con alta motivación, no dudes en comunicarte conmigo. Estoy aquí para ayudarte en tu próximo proyecto.</p>
-                  <button onClick={() => console.log('connect')}>Conectémonos <ArrowRightCircle size={25} /></button>
+                 <a href={Pdf} target='_blank'> <button >Descarga mi CV!  </button> </a>
               </div>}
             </TrackVisibility>
           </Col>
