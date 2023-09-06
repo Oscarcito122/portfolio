@@ -423,7 +423,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #6e6e6e -5.91%, #1b0d0a 111.58%);
+  background: linear-gradient(90.21deg, #20100C -5.91%, #1b0d0a 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -463,6 +463,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 30px;
   letter-spacing: 0.8px;
   color: #ffffff;
+  transition: 0.3s ease-in-out;
+
+}
+.proj-txtx button:hover,
+.proj-txtx button :hover{
+    opacity: 1;
+    color: #BA978D;
 }
 .proj-txtx span {
   font-style: italic;
