@@ -50,9 +50,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/tiago-bergmann-0576b7264/"><img src={navIcon1} alt="" /></a>
-                <a href="https://github.com/Oscarcito122"><img src={navIcon2} alt="" /></a>
-                <a href="https://wa.link/58wbir"><img src={navIcon3} alt="" /></a>
+                <a href="https://www.linkedin.com/in/tiago-bergmann-0576b7264/" target='_blank'><img src={navIcon1} alt="" /></a>
+                <a href="https://github.com/Oscarcito122" target='_blank'><img src={navIcon2} alt="" /></a>
+                <a href="https://wa.link/58wbir" target='_blank'><img src={navIcon3} alt="" /></a>
               </div>
             </span>
           </Navbar.Collapse>

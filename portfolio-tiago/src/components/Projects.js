@@ -14,21 +14,26 @@ export const Projects = () => {
       title: "Teesa",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project1,
+      linkProy: "https://co.linkedin.com/in/juan-david-gustin-andino?trk=public_profile_project_contributor-image"
     },
     {
       title: "Recipe Ship",
       description: "Aplicación Web para los amantes de las recetas, el usuario puede navegar, filtrar, y crear datos acerca de recetas.",
       imgUrl: project2,
+      linkProy: "https://github.com/Oscarcito122/proyectoindivualfood/tree/master"
+
     },
     {
       title: "Portfolio",
       description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
       imgUrl: project3,
+      linkProy: "https://co.linkedin.com/in/juan-david-gustin-andino?trk=public_profile_project_contributor-image"
+
     },
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="project" id="projects">
       <Container>
         <Row>
           <Col size={12}>
