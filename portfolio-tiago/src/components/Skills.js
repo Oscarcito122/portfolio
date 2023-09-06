@@ -1,12 +1,12 @@
-import meter1 from "../assets/img/html.png";
-import meter2 from "../assets/img/css.png";
-import meter3 from "../assets/img/javascript.png";
-import meter4 from "../assets/img/react.png";
-import meter5 from "../assets/img/redux.png";
-import meter6 from "../assets/img/tailwind.png";
-import meter7 from "../assets/img/typescript.png";
-import meter8 from "../assets/img/nodejs.png";
-import meter9 from "../assets/img/git.png";
+import skill1 from "../assets/img/html.png";
+import skill2 from "../assets/img/css.png";
+import skill3 from "../assets/img/javascript.png";
+import skill4 from "../assets/img/react.png";
+import skill5 from "../assets/img/redux.png";
+import skill6 from "../assets/img/tailwind.png";
+import skill7 from "../assets/img/typescript.png";
+import skill8 from "../assets/img/nodejs.png";
+import skill9 from "../assets/img/git.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 
@@ -14,7 +14,6 @@ import 'react-multi-carousel/lib/styles.css';
 export const Skills = () => {
   const responsive = {
     superLargeDesktop: {
-      // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
       items: 5
     },
@@ -41,39 +40,39 @@ export const Skills = () => {
                         <h2>Habilidades</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={skill1} alt="Image" />
                                 <h5>HTML</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={skill2} alt="Image" />
                                 <h5>CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={skill3} alt="Image" />
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
+                                <img src={skill4} alt="Image" />
                                 <h5>React</h5>
                             </div>
                             <div className="item">
-                                <img src={meter5} alt="Image" />
+                                <img src={skill5} alt="Image" />
                                 <h5>Redux Toolkit</h5>
                             </div>
                             <div className="item">
-                                <img src={meter6} alt="Image" />
+                                <img src={skill6} alt="Image" />
                                 <h5>Tailwind CSS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter7} alt="Image" />
+                                <img src={skill7} alt="Image" />
                                 <h5>Typescript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter8} alt="Image" />
+                                <img src={skill8} alt="Image" />
                                 <h5>NodeJS</h5>
                             </div>
                             <div className="item">
-                                <img src={meter9} alt="Image" />
+                                <img src={skill9} alt="Image" />
                                 <h5>Git & Github</h5>
                             </div>
                         </Carousel>

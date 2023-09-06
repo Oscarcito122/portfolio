@@ -326,7 +326,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .skill-slider .item img {
   width: 50%;
-  margin: 0 auto 15px auto;
+  height: 50%;
+  object-fit: cover;
 }
 
 
@@ -334,7 +335,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: #20100C
+  background-color: #20100C;
 }
 .project h2 {
 	font-size: 45px;
@@ -408,7 +409,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 30px;
   overflow: hidden;
   margin-bottom: 24px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   cursor: pointer;
+}
+.proj-imgbx img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
 }
 .proj-imgbx::before {
   content: "";
@@ -425,7 +434,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .proj-txtx {
   position: absolute;
   text-align: center;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.5s ease-in-out;
@@ -484,7 +493,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.3s ease-in-out;
 }
 .contact form input:focus, .contact form textarea:focus {
-  background: rgba(255, 255, 255, 1);
+  background: #BA978D(255, 255, 255, 1);
   color: #121212;
 }
 .contact form input::placeholder, .contact form textarea::placeholder {
@@ -498,25 +507,27 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button {
   font-weight: 700;
-  color: #000;
-  background-color: #fff;
+  color: #20100C;
+  background-color: #BA978D;
   padding: 14px 48px;
   font-size: 18px;
   margin-top: 25px;
-  border-radius: 0;
+  border-radius: 40%;
   position: relative;
   transition: 0.3s ease-in-out;
 }
 .contact form button span {
   z-index: 1;
   position: relative;
+  
 }
 .contact form button:hover {
   color: #fff;
 }
 .contact form button::before {
+  border-radius: 35%;
   content: "";
-  background: #121212;
+  background: #20100C;
   width: 0;
   height: 100%;
   position: absolute;
@@ -538,53 +549,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background-repeat: no-repeat;
 }
 
-.new-email-bx {
-  background: #fff;
-  padding: 5px;
-  border-radius: 20px;
-  position: relative;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-}
-.new-email-bx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: -1px;
-  left: -1px;
-  bottom: -1px;
-  right: -1px;
-}
-.new-email-bx::after {
-  content: "";
-  background: #fff;
-  border-radius: 20px;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-.new-email-bx input {
-  width: 100%;
-  color: #121212;
-  font-weight: 500;
-  background: transparent;
-  border: 0;
-  padding: 0 15px;
-}
-.new-email-bx button {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  padding: 20px 65px;
-  color: #fff;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  border-radius: 18px;
-}
+
 .footer img {
   width: 26%;
 }

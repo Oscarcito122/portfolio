@@ -1,8 +1,8 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
+import project1 from "../assets/img/proyectotessa.png";
+import project2 from "../assets/img/proyectorecipe.jpg";
+import project3 from "../assets/img/proyectoportfolio.png";
 import colorSharp2 from "../assets/img/manchas.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -13,17 +13,17 @@ export const Projects = () => {
     {
       title: "Teesa",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
-      imgUrl: projImg1,
+      imgUrl: project1,
     },
     {
       title: "Recipe Ship",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      description: "Aplicación Web para los amantes de las recetas, el usuario puede navegar, filtrar, y crear datos acerca de recetas.",
+      imgUrl: project2,
     },
     {
       title: "Portfolio",
       description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
-      imgUrl: projImg3,
+      imgUrl: project3,
     },
   ];
 
@@ -36,7 +36,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Proyectos</h2>
-                <p>Todos mis proyectos han sido cuidadosamente diseñados con el objetivo de brindar una experiencia de usuario intuitiva y sencilla,Espero que disfrutes explorando lo que he creado.</p>
+                <p>Todos mis proyectos han sido cuidadosamente diseñados con el objetivo de brindar una experiencia de usuario intuitiva y sencilla,¡Espero que disfrutes explorando lo que he creado!.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     {/* <Nav.Item>
