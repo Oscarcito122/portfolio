@@ -4,6 +4,10 @@ import logo from '../assets/img/logo.png';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.png';
 import navIcon3 from '../assets/img/nav-icon3.png';
+import navIcon4 from '../assets/img/nav-icon4.png';
+
+import Pdf from "../assets/img/TiagoCV.pdf"
+
 import {
   BrowserRouter as Router
 } from "react-router-dom";
@@ -43,7 +47,6 @@ export const NavBar = () => {
           </Navbar.Toggle>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Inicio</Nav.Link>
               <Nav.Link href="#skills" className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
               <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('projects')}>Proyectos</Nav.Link>
               <Nav.Link href='#connect' className={activeLink === 'connect' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('connect')}>Contacto</Nav.Link>
@@ -53,6 +56,8 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/tiago-bergmann-0576b7264/" target='_blank'><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/Oscarcito122" target='_blank'><img src={navIcon2} alt="" /></a>
                 <a href="https://wa.link/58wbir" target='_blank'><img src={navIcon3} alt="" /></a>
+                <a href={Pdf} target='_blank'><img src={navIcon4} alt="" /></a>
+
               </div>
             </span>
           </Navbar.Collapse>
