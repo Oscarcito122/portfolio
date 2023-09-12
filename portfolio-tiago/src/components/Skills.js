@@ -40,40 +40,40 @@ export const Skills = () => {
                         <h2>Habilidades</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={skill1} alt="Image" />
                                 <h5>HTML</h5>
+                                <img src={skill1} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill2} alt="Image" />
                                 <h5>CSS</h5>
+                                <img src={skill2} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill3} alt="Image" />
                                 <h5>Javascript</h5>
+                                <img src={skill3} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill4} alt="Image" />
                                 <h5>React</h5>
+                                <img src={skill4} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill5} alt="Image" />
                                 <h5>Redux Toolkit</h5>
+                                <img src={skill5} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill6} alt="Image" />
                                 <h5>Tailwind CSS</h5>
+                                <img src={skill6} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill7} alt="Image" />
                                 <h5>Typescript</h5>
+                                <img src={skill7} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill8} alt="Image" />
                                 <h5>NodeJS</h5>
+                                <img src={skill8} alt="Image" />
                             </div>
                             <div className="item">
-                                <img src={skill9} alt="Image" />
                                 <h5>Git & Github</h5>
+                                <img src={skill9} alt="Image" />
                             </div>
                         </Carousel>
                     </div>
