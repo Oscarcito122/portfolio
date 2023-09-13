@@ -3,7 +3,6 @@ import { ProjectCard } from "./ProjectCard";
 import project1 from "../assets/img/proyectotessa.png";
 import project2 from "../assets/img/proyectorecipe.jpg";
 import project3 from "../assets/img/proyectoportfolio.png";
-import colorSharp2 from "../assets/img/manchas.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -14,7 +13,7 @@ export const Projects = () => {
       title: "Teesa",
       description: "Aplicación Web E-commerce responsive creada para el negocio Teesa S.A.S., empresa dedicada a la comercialización de equipos alimenticios.",
       imgUrl: project1,
-      linkProy: "https://co.linkedin.com/in/juan-david-gustin-andino?trk=public_profile_project_contributor-image"
+      linkProy: "https://pf-teesa-front.vercel.app/"
     },
     {
       title: "Recipe Ship",
