@@ -19,7 +19,7 @@ export const Skills = () => {
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 3
+      items: 4
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
@@ -40,7 +40,7 @@ export const Skills = () => {
                         <h2>Habilidades</h2>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <h5>HTML</h5>
+                                <h5>HTML</h5> 
                                 <img src={skill1} alt="Image" />
                             </div>
                             <div className="item">
