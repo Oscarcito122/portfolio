@@ -26,7 +26,7 @@ export const Projects = () => {
       title: "Portfolio",
       description: "Portafolio en línea responsive para destacar mis proyectos como desarrollador web frontend. ¡Tú estás aquí! Gracias por entrar.",
       imgUrl: project3,
-      linkProy: "https://co.linkedin.com/in/juan-david-gustin-andino?trk=public_profile_project_contributor-image"
+      linkProy: "https://portfolio-pi-eight-25.vercel.app/"
 
     },
   ];
